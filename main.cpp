@@ -8,9 +8,9 @@ int main() {
     bool rb;
 
     salida<=entrada? rb=true: rb = false;
-    std::cout<<"salida == entrada "
+    std::cout<<"salida <= entrada "
              << salida.to_String()
-             <<" == "<<entrada.to_String()
+             <<" <= "<<entrada.to_String()
              <<" resultado= "<< rb<<"\n";
 
     r=salida-entrada;
