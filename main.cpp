@@ -7,7 +7,7 @@ int main() {
     FormatoHora r;
     bool rb;
 
-    salida==entrada? rb=true: rb = false;
+    salida<=entrada? rb=true: rb = false;
     std::cout<<"salida == entrada "
              << salida.to_String()
              <<" == "<<entrada.to_String()

@@ -82,7 +82,7 @@ bool operator<= (const FormatoHora &h1, const FormatoHora &h2){
      * Si horas minutos y segundos de los parámetros h1 y h2 son menores o iguales,
      * devuelve true
      */
-    return h1.h <= h2.h || h1.m <= h2.m || h1.s <= h2.s;
+    return h1.h <= h2.h && h1.m <= h2.m && h1.s <= h2.s;
 }
 
 bool operator>= (const FormatoHora &h1, const FormatoHora &h2){
